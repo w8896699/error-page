@@ -12,6 +12,16 @@ const routes: Routes = [  {
   path: 'OutofService',
   component: OutofServicePageComponent
 },
+{
+  path: '',
+  component: OutofServicePageComponent
+},
+  {
+    // wildcard route
+    path: '**',
+    redirectTo: '/',
+    pathMatch: 'full'
+  }
 ];
 
 @NgModule({
