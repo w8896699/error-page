@@ -1,4 +1,8 @@
+
+@import '../../../node_modules/@bcgov/bc-sans/css/BCSans.css';
+
 body { 
+   
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -6,17 +10,18 @@ body {
     align-items: center;
     background: linear-gradient(to bottom right, #EEE, #AAA);
 }
+
 h1 {
      font-size: 50px;
      }
 body { 
-    font: 20px Helvetica, 
-    sans-serif; 
     color: #333; }
 article {
+     font-size: 20px;
+     font-family: BCSans Verdana, sans-serif;
      display: block; 
      text-align: left; 
      width: 650px;
-      margin: auto; }
+     margin: auto; }
 a { color: #dc8100; text-decoration: none; }
 a:hover { color: #333; text-decoration: none; }

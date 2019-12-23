@@ -1,7 +1,11 @@
 
+@import '../../../node_modules/@bcgov/bc-sans/css/BCSans.css';
+
 $animationTime: 2s;
 
 body {
+  font-size: 20px;
+  font-family: BCSans Verdana, sans-serif;
   height: 100vh;
   display: flex;
   flex-direction: column;
